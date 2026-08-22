@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Coleridge Initiative — Dataset Discovery & NLP Modeling Project</title>
+<style>
+:root{--ink:#172033;--muted:#667085;--blue:#2563eb;--cyan:#0891b2;--purple:#7c3aed;--bg:#f5f7fb;--card:#fff;}
+*{box-sizing:border-box} body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.65}
+.hero{padding:90px 8%;background:linear-gradient(135deg,#172554,#2563eb 55%,#0891b2);color:white;position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;width:420px;height:420px;border-radius:50%;right:-120px;top:-170px;background:rgba(255,255,255,.12)}
+.kicker{letter-spacing:.18em;font-weight:800;font-size:14px;opacity:.9}
+h1{font-size:clamp(38px,6vw,70px);line-height:1.03;margin:15px 0 20px;max-width:900px}
+.subtitle{font-size:20px;max-width:800px;opacity:.92}
+.meta{margin-top:30px;font-weight:700}
+.container{max-width:1120px;margin:0 auto;padding:45px 24px 80px}
+.section{display:grid;grid-template-columns:90px 1fr;gap:25px;padding:55px 0;border-bottom:1px solid #e4e7ec}
+.section-no{font-size:44px;font-weight:900;color:#c7d2fe}
+h2{font-size:34px;margin:0 0 12px}
+.intro{color:var(--muted);font-size:17px;max-width:900px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:24px}
+.card{background:var(--card);padding:20px;border-radius:18px;box-shadow:0 8px 28px rgba(16,24,40,.07);border:1px solid #edf0f5}
+.label{font-weight:800;color:var(--blue);margin-bottom:7px}
+.value{color:#475467}
+.footer{padding:45px 8%;text-align:center;color:var(--muted);background:#fff}
+.badges span{display:inline-block;padding:8px 13px;border-radius:999px;background:#eef2ff;color:#3730a3;margin:5px;font-weight:700}
+@media(max-width:700px){.section{grid-template-columns:1fr}.section-no{font-size:28px}}
+</style></head>
+<body>
+<header class="hero">
+<div class="kicker">COLERIDGE INITIATIVE • NLP • DATASET DISCOVERY</div>
+<h1>Dataset Discovery &amp; NLP Modeling Project</h1>
+<p class="subtitle">A practical machine-learning pipeline for identifying research datasets referenced in academic publications.</p>
+<div class="meta">Tamambang Nji Fru Duna &nbsp;•&nbsp; 6 December 2025</div>
+</header>
+<main class="container">
+<section class="section"><div class="section-no">00</div><div class="content">
+<h2>Project at a Glance</h2>
+<p class="intro">This project demonstrates how academic text can be transformed into structured signals for dataset discovery—from preprocessing and exploratory analysis through machine-learning evaluation and automated communication.</p>
+<div class="badges"><span>Python</span><span>spaCy</span><span>scikit-learn</span><span>Pandas</span><span>NLP</span><span>Machine Learning</span></div>
+</div></section>
+
+<section class="section">
+  <div class="section-no">01</div>
+  <div class="content">
+    <h2>Project Overview</h2>
+    <p class="intro">The Coleridge Initiative — Dataset Discovery &amp; NLP Modeling Project explores how Natural Language Processing can automatically identify research datasets referenced in academic publications.</p>
+    <div class="grid"><div class="card"><div class="label">Goal</div><div class="value">Build an NLP model that identifies research datasets referenced in academic publications.</div></div><div class="card"><div class="label">Source</div><div class="value">Kaggle Coleridge Initiative dataset.</div></div><div class="card"><div class="label">Deliverables</div><div class="value">Exploratory data analysis, a cleaned dataset, text embeddings, model training, evaluation metrics, and an automated presentation/report.</div></div></div>
+  </div>
+</section>
+<section class="section">
+  <div class="section-no">02</div>
+  <div class="content">
+    <h2>Data Sources</h2>
+    <p class="intro">The project combines structured labels with the full text of scientific publications to create a practical dataset-discovery pipeline.</p>
+    <div class="grid"><div class="card"><div class="label">train.csv</div><div class="value">Publication text and dataset labels.</div></div><div class="card"><div class="label">documents/</div><div class="value">Scientific publications used for text analysis.</div></div><div class="card"><div class="label">Additional metadata</div><div class="value">Metadata can be incorporated when required for analysis.</div></div><div class="card"><div class="label">Technology stack</div><div class="value">Python • spaCy • scikit-learn • Pandas</div></div></div>
+  </div>
+</section>
+<section class="section">
+  <div class="section-no">03</div>
+  <div class="content">
+    <h2>Data Processing Pipeline</h2>
+    <p class="intro">The pipeline transforms raw academic text into machine-learning-ready representations and evaluated predictions.</p>
+    <div class="grid"><div class="card"><div class="label">01</div><div class="value">Load publication text and labels</div></div><div class="card"><div class="label">02</div><div class="value">Clean and normalize text: lowercase, punctuation handling, and stopword removal</div></div><div class="card"><div class="label">03</div><div class="value">Tokenize text with spaCy</div></div><div class="card"><div class="label">04</div><div class="value">Extract word-frequency and text statistics</div></div><div class="card"><div class="label">05</div><div class="value">Generate TF-IDF representations</div></div><div class="card"><div class="label">06</div><div class="value">Train and evaluate machine-learning models</div></div><div class="card"><div class="label">07</div><div class="value">Export predictions and results for reporting</div></div></div>
+  </div>
+</section>
+<section class="section">
+  <div class="section-no">04</div>
+  <div class="content">
+    <h2>Exploratory Data Analysis</h2>
+    <p class="intro">EDA provides a visual understanding of the corpus before model training and helps identify language patterns associated with dataset references.</p>
+    <div class="grid"><div class="card"><div class="label">Word frequency</div><div class="value">Identify frequent terms and recurring dataset-related vocabulary.</div></div><div class="card"><div class="label">Document length</div><div class="value">Analyze the distribution of publication text lengths.</div></div><div class="card"><div class="label">Dataset names</div><div class="value">Explore commonly referenced datasets and naming patterns.</div></div><div class="card"><div class="label">Visualization</div><div class="value">Matplotlib • WordCloud • spaCy NER patterns</div></div></div>
+  </div>
+</section>
+<section class="section">
+  <div class="section-no">05</div>
+  <div class="content">
+    <h2>NLP Models Used</h2>
+    <p class="intro">Multiple modeling approaches were considered, from a strong classical baseline to neural architectures designed for text classification.</p>
+    <div class="grid"><div class="card"><div class="label">01 — Logistic Regression</div><div class="value">A fast, interpretable baseline that works particularly well with TF-IDF features.</div></div><div class="card"><div class="label">02 — sep-CNN</div><div class="value">A Sentence-piece CNN approach using subword tokens, useful for recognizing short dataset-reference phrases.</div></div><div class="card"><div class="label">03 — BiLSTM</div><div class="value">A bidirectional recurrent model that captures contextual information in both directions.</div></div><div class="card"><div class="label">04 — GRU</div><div class="value">A memory-efficient recurrent architecture that can model sequential text patterns with fewer gates than an LSTM.</div></div></div>
+  </div>
+</section>
+<section class="section">
+  <div class="section-no">06</div>
+  <div class="content">
+    <h2>Model Training Workflow</h2>
+    <p class="intro">The training workflow converts processed text into features, fits models, evaluates their performance, and preserves predictions for downstream reporting.</p>
+    <div class="grid"><div class="card"><div class="label">01</div><div class="value">Create a train/test split</div></div><div class="card"><div class="label">02</div><div class="value">Convert text into TF-IDF vectors</div></div><div class="card"><div class="label">03</div><div class="value">Train the baseline and candidate models</div></div><div class="card"><div class="label">04</div><div class="value">Evaluate precision, recall, and F1 score</div></div><div class="card"><div class="label">05</div><div class="value">Save predictions for presentation and report generation</div></div></div>
+  </div>
+</section>
+<section class="section">
+  <div class="section-no">07</div>
+  <div class="content">
+    <h2>Model Performance</h2>
+    <p class="intro">The final presentation should use the verified metrics produced by the project notebook. The values below are placeholders from the supplied draft and should be replaced if the actual notebook metrics differ.</p>
+    <div class="grid"><div class="card"><div class="label">Precision</div><div class="value">0.87</div></div><div class="card"><div class="label">Recall</div><div class="value">0.82</div></div><div class="card"><div class="label">F1 Score</div><div class="value">0.84</div></div><div class="card"><div class="label">Observation</div><div class="value">The supplied draft reports Logistic Regression as the strongest baseline.</div></div></div>
+  </div>
+</section>
+<section class="section">
+  <div class="section-no">08</div>
+  <div class="content">
+    <h2>Example Prediction</h2>
+    <p class="intro">A practical example illustrates the intended end-to-end behavior: recognize a dataset reference from academic prose and return the corresponding dataset name.</p>
+    <div class="grid"><div class="card"><div class="label">Input text</div><div class="value">“We used the National Health and Nutrition Examination Survey (NHANES) dataset…”</div></div><div class="card"><div class="label">Predicted dataset</div><div class="value">NHANES</div></div></div>
+  </div>
+</section>
+<section class="section">
+  <div class="section-no">09</div>
+  <div class="content">
+    <h2>Project Deliverables</h2>
+    <p class="intro">The project produces a reusable collection of analysis artifacts, models, visualizations, and communication materials.</p>
+    <div class="grid"><div class="card"><div class="label">01</div><div class="value">Cleaned dataset</div></div><div class="card"><div class="label">02</div><div class="value">Exploratory Data Analysis notebook</div></div><div class="card"><div class="label">03</div><div class="value">NLP model training notebook</div></div><div class="card"><div class="label">04</div><div class="value">Visualization outputs</div></div><div class="card"><div class="label">05</div><div class="value">Auto-generated report and presentation</div></div></div>
+  </div>
+</section>
+<section class="section">
+  <div class="section-no">10</div>
+  <div class="content">
+    <h2>Next Steps</h2>
+    <p class="intro">The project can be extended from a research prototype into a deployable dataset-discovery service.</p>
+    <div class="grid"><div class="card"><div class="label">01</div><div class="value">Experiment with BERT-based embeddings and transformer models</div></div><div class="card"><div class="label">02</div><div class="value">Train a custom spaCy Named Entity Recognition model</div></div><div class="card"><div class="label">03</div><div class="value">Expose predictions through a FastAPI service</div></div><div class="card"><div class="label">04</div><div class="value">Containerize the application with Docker</div></div><div class="card"><div class="label">05</div><div class="value">Build an interactive Streamlit frontend</div></div></div>
+  </div>
+</section>
+</main>
+<footer class="footer">Coleridge Initiative — Dataset Discovery &amp; NLP Modeling Project<br>Prepared by Tamambang Nji Fru Duna</footer>
+</body></html>
