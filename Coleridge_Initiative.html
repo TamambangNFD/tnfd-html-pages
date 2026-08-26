@@ -2,33 +2,34 @@
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Coleridge Initiative — Dataset Discovery & NLP Modeling Project</title>
+<link rel="stylesheet" href="assets/shared.css">
 <style>
-:root{--ink:#172033;--muted:#667085;--blue:#2563eb;--cyan:#0891b2;--purple:#7c3aed;--bg:#f5f7fb;--card:#fff;}
-*{box-sizing:border-box} body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.65}
-.hero{padding:90px 8%;background:linear-gradient(135deg,#172554,#2563eb 55%,#0891b2);color:white;position:relative;overflow:hidden}
+:root{--ink:#172033;--muted:#667085;--blue:#2563eb;--bg:#f5f7fb;--card:#fff;--line:#edf0f5;--hero-gradient:linear-gradient(135deg,#172554,#2563eb 55%,#0891b2)}
+body{font-family:Inter,Segoe UI,Arial,sans-serif}
+.hero{padding:90px 8%;position:relative;overflow:hidden}
 .hero:after{content:"";position:absolute;width:420px;height:420px;border-radius:50%;right:-120px;top:-170px;background:rgba(255,255,255,.12)}
-.kicker{letter-spacing:.18em;font-weight:800;font-size:14px;opacity:.9}
-h1{font-size:clamp(38px,6vw,70px);line-height:1.03;margin:15px 0 20px;max-width:900px}
-.subtitle{font-size:20px;max-width:800px;opacity:.92}
+.eyebrow{font-weight:800;font-size:14px;opacity:.9}
+.hero h1{font-size:clamp(38px,6vw,70px);margin-bottom:20px;max-width:900px}
+.hero p{max-width:800px;opacity:.92}
 .meta{margin-top:30px;font-weight:700}
 .container{max-width:1120px;margin:0 auto;padding:45px 24px 80px}
-.section{display:grid;grid-template-columns:90px 1fr;gap:25px;padding:55px 0;border-bottom:1px solid #e4e7ec}
+.section{display:grid;grid-template-columns:90px 1fr;gap:25px;border-bottom:1px solid #e4e7ec}
 .section-no{font-size:44px;font-weight:900;color:#c7d2fe}
-h2{font-size:34px;margin:0 0 12px}
+h2{margin:0 0 12px}
 .intro{color:var(--muted);font-size:17px;max-width:900px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:24px}
-.card{background:var(--card);padding:20px;border-radius:18px;box-shadow:0 8px 28px rgba(16,24,40,.07);border:1px solid #edf0f5}
-.label{font-weight:800;color:var(--blue);margin-bottom:7px}
+.grid{grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:24px}
+.card{padding:20px;box-shadow:0 8px 28px rgba(16,24,40,.07)}
+.label{font-size:inherit;text-transform:none;letter-spacing:normal;font-weight:800;color:var(--blue);margin-bottom:7px}
 .value{color:#475467}
-.footer{padding:45px 8%;text-align:center;color:var(--muted);background:#fff}
+footer{padding:45px 8%;text-align:center;background:#fff}
 .badges span{display:inline-block;padding:8px 13px;border-radius:999px;background:#eef2ff;color:#3730a3;margin:5px;font-weight:700}
 @media(max-width:700px){.section{grid-template-columns:1fr}.section-no{font-size:28px}}
 </style></head>
 <body>
 <header class="hero">
-<div class="kicker">COLERIDGE INITIATIVE • NLP • DATASET DISCOVERY</div>
+<div class="eyebrow">COLERIDGE INITIATIVE • NLP • DATASET DISCOVERY</div>
 <h1>Dataset Discovery &amp; NLP Modeling Project</h1>
-<p class="subtitle">A practical machine-learning pipeline for identifying research datasets referenced in academic publications.</p>
+<p>A practical machine-learning pipeline for identifying research datasets referenced in academic publications.</p>
 <div class="meta">Tamambang Nji Fru Duna &nbsp;•&nbsp; 6 December 2025</div>
 </header>
 <main class="container">
@@ -119,5 +120,5 @@ h2{font-size:34px;margin:0 0 12px}
   </div>
 </section>
 </main>
-<footer class="footer">Coleridge Initiative — Dataset Discovery &amp; NLP Modeling Project<br>Prepared by Tamambang Nji Fru Duna</footer>
+<footer>Coleridge Initiative — Dataset Discovery &amp; NLP Modeling Project<br>Prepared by Tamambang Nji Fru Duna</footer>
 </body></html>
